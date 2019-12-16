@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: client
-      image: hyu6/multi-client
+      image: hyu6/multi-worker
       ports:
-        - containerPort: 3000
+        - containerPort: 9999
